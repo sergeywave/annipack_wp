@@ -19,4 +19,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: './'     
-          server-dir: ${{ secrets.FTP_PATH }}/ 
+          server-dir: '/wp/wp-content/themes/annipack/'
